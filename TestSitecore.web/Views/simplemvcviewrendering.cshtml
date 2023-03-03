@@ -1,0 +1,13 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+
+<div>
+    <h1>
+        @Html.Sitecore().Field("Title", Model.Item)
+        @*@Html.Sitecore().Field("Title", Model.Item, new { DisableEdit = true })*@
+    </h1>
+    <p>
+        @Html.Sitecore().Field("Text", Model.Item)
+    </p>
+</div>

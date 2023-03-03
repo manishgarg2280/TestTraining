@@ -1,0 +1,23 @@
+﻿@using Sitecore.Mvc
+@model TestSitecore.web.Models.BlogPostViewModel
+
+<div>
+    <h1>
+        @Model.Title
+    </h1>
+    <p>
+        @Model.Summary
+    </p>
+    <div>
+        <img src="@Model.Author.AuthorImage" alt="@Model.Author.AuthorName" />
+        <h5>@Model.Author.AuthorName</h5>
+        <hr />
+        Post Date :@Model.BlogPostDate.ToString("dd/mm/yyyy")
+    </div>
+    <div>
+        <img src="@Model.BlogImage" alt="@Model.Title" />
+        <div>
+            @Model.Body
+        </div>
+    </div>
+</div>
