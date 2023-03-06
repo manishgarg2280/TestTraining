@@ -26,23 +26,27 @@ namespace TestSitecore.web.Controllers
 
             Sitecore.Data.Items.Item authorItem = authorField.TargetItem;
 
+            if (authorItem != null) { 
             Field authorName = authorItem.Fields["Author"];
+
             Field designation = authorItem.Fields["Designation"];
             Field authorImage = authorItem.Fields["Image"];
             Field authorSummary = authorItem.Fields["Summary"];
-
+                model.Author = new Author
+                {
+                    AuthorName = authorName.Value,
+                    Designation = designation.Value,
+                    AuthorImage = Sitecore.StringUtil.EnsurePrefix('/', Sitecore.Resources.Media.MediaManager.GetMediaUrl(image.MediaItem))
+                };
+            }
             model.Title = title.Value;
             model.Summary = summary.Value;
             model.Body = body.Value;
             model.BlogPostDate = date.DateTime;
             model.BlogImage = Sitecore.StringUtil.EnsurePrefix('/',Sitecore.Resources.Media.MediaManager.GetMediaUrl(image.MediaItem));
 
-            model.Author = new Author
-            {
-                AuthorName = authorName.Value,
-                Designation=designation.Value,
-                AuthorImage= Sitecore.StringUtil.EnsurePrefix('/', Sitecore.Resources.Media.MediaManager.GetMediaUrl(image.MediaItem))
-            };
+            
+           
             return View(model);
         }
     }

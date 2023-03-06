@@ -1,0 +1,68 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName />
+      <Author />
+      <Version />
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/content/Home/{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/BlogAuthors/{60E78384-9795-4317-840E-67C906C00844}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/BlogAuthors/Joe/{43FD176F-78DD-48C1-9C59-D4323BD08AEA}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/BlogAuthors/JohnSmith/{AEFB6BD8-E459-4717-BFD0-CEF5AA15C8B8}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/BlogAuthors/TomHarry/{70F36062-8E90-4C31-AC33-3BB74AE411B8}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Blogs/{367EBF0D-7700-42D3-A8AD-5D174F1A1926}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Blogs/Blog1/{74007325-BA8B-47F4-982A-08B0D61453BB}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Blogs/Blog2/{864E48A7-F008-415A-BFFD-0F4F703541EC}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Blogs/Blog3/{A32B213B-7708-4614-9212-CBE8BFBB79D2}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Events/{BF810A4C-CE88-4C61-965B-94B375BDC41F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Events/SitecoreTraining/{299473B9-4CF0-4770-A1F2-295602D46A86}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Events/SitecoreTraining2/{2C079485-32FC-4DDD-AD1F-ED1D3A546254}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Events1/{359F8F43-C27B-4182-8A45-973A04CAD850}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Events1/trainingevent/{35D6E830-BBBB-4F55-92FB-8ED4BBC07000}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/test3/{2312191F-E40B-43F9-B0EE-A2A780865479}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/test-page/{7402110B-A28A-4E59-A932-F6050619F090}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/test-page2/{BB95759B-7C7C-4480-904E-103117072562}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/TestTraining/{8BFBFB9E-9D97-40D6-8B3B-2B07E74A80F8}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>package_0603</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
